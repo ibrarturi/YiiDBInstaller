@@ -1,0 +1,318 @@
+2014/03/06 15:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setupconfig".' in /var/www/yiiroot/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('setupconfig')
+#1 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/
+---
+2014/03/06 15:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setupconfig".' in /var/www/yiiroot/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CController.php(271): CController->missingAction('setupconfig')
+#1 /var/www/yiiroot/framework/web/CWebApplication.php(283): CController->run('setupconfig')
+#2 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('site/setupconfi...')
+#3 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/
+---
+2014/03/06 16:33:25 [error] [php] Undefined variable: form (/var/www/yii_tests/flat_menu_test/install/protected/views/site/setupconfig.php:19)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CController.php(870): SiteController->renderFile()
+#1 /var/www/yiiroot/framework/web/CController.php(783): SiteController->renderPartial()
+#2 /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php(28): SiteController->render()
+#3 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#4 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#6 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#7 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#8 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/views/site/setupconfig.php (19)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (28)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:48:01 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:53:48 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:54:23 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:54:58 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:56:03 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/06 16:56:20 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 08:52:19 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 08:58:18 [warning] [application] Failed to set unsafe attribute "password" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:22:27 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:23:31 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:23:39 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:23:46 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:23:46 [error] [php] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) (/var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php:45)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#1 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#3 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#6 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#7 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (45)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (30)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:29:14 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:29:14 [error] [php] mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) (/var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php:45)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#1 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#3 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#6 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#7 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (45)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (30)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:29:55 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:30:05 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:30:09 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:30:18 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:32:26 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:32:33 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:33:00 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:33:20 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:33:40 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (27)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:34:01 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (28)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:36:25 [warning] [application] Failed to set unsafe attribute "dbpassword" of "SetupConfig".
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (28)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 09:39:48 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "dbconnerror".' in /var/www/yiiroot/framework/web/CController.php:879
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CController.php(783): CController->renderPartial('dbconnerror', NULL, true)
+#1 /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php(34): CController->render('dbconnerror')
+#2 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#3 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /var/www/yiiroot/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiiroot/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiiroot/framework/web/CWebApplication.php(283): CController->run('setupconfig')
+#7 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('site/setupconfi...')
+#8 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/07 09:47:36 [error] [exception.CException] exception 'CException' with message 'Property "SetupConfig.isValidDb" is not defined.' in /var/www/yiiroot/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php(35): CComponent->__get('isValidDb')
+#1 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#2 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/www/yiiroot/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiiroot/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(283): CController->run('setupconfig')
+#6 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('site/setupconfi...')
+#7 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/07 09:50:50 [error] [exception.CException] exception 'CException' with message 'Property "SetupConfig.isValidDb" is not defined.' in /var/www/yiiroot/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php(35): CComponent->__get('isValidDb')
+#1 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#2 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/www/yiiroot/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiiroot/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(283): CController->run('setupconfig')
+#6 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('site/setupconfi...')
+#7 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/07 09:50:56 [error] [exception.CException] exception 'CException' with message 'Property "SetupConfig.isValidDb" is not defined.' in /var/www/yiiroot/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php(35): CComponent->__get('isValidDb')
+#1 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#2 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /var/www/yiiroot/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /var/www/yiiroot/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(283): CController->run('setupconfig')
+#6 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('site/setupconfi...')
+#7 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/07 15:22:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:23:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:23:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:25:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:36:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:38:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:38:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:39:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:40:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:40:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql' at line 1. The SQL statement executed was: /var/www/yii_tests/flat_menu_test/install/protected/data/db_template.sql.
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (98)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:42:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.tbl_user' doesn't exist. The SQL statement executed was: INSERT INTO tbl_user (username, password, email) VALUES ('test21', 'pass21', 'test21@example.com').
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (127)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 15:51:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.tbl_user' doesn't exist. The SQL statement executed was: INSERT INTO tbl_user (username, password, email) VALUES ('test21', 'pass21', 'test21@example.com').
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (127)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 16:15:02 [error] [php] file_put_contents(/var/www/yii_tests/flat_menu_test/install/protected/../../protected/config/main.php): failed to open stream: Permission denied (/var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php:161)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#1 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#3 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#6 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#7 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (161)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (46)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/07 16:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "..".' in /var/www/yiiroot/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('..')
+#1 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=..
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/10 15:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/yiiroot/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yii_tests/flat_menu_test/install/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=gii
+HTTP_REFERER=http://localhost/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+---
+2014/03/10 15:29:37 [error] [php] Undefined index: HTTPS (/var/www/yii_tests/flat_menu_test/install/protected/components/Helper.php:7)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/actions/CInlineAction.php(50): SiteController->actionSetupConfig()
+#1 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#3 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#5 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#6 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#7 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/components/Helper.php (7)
+in /var/www/yii_tests/flat_menu_test/install/protected/components/Helper.php (20)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (25)
+2014/03/10 16:43:42 [error] [php] Undefined variable: root (/var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php:92)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (92)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)
+2014/03/11 10:32:49 [error] [php] Undefined variable: delimiter (/var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php:100)
+Stack trace:
+#0 /var/www/yiiroot/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiroot/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiroot/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiroot/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiroot/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiroot/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yii_tests/flat_menu_test/install/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii_tests/flat_menu_test/install/index.php?r=site/setupconfig
+in /var/www/yii_tests/flat_menu_test/install/protected/models/SetupConfig.php (100)
+in /var/www/yii_tests/flat_menu_test/install/protected/controllers/SiteController.php (40)
+in /var/www/yii_tests/flat_menu_test/install/index.php (13)

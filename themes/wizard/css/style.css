@@ -1,0 +1,95 @@
+/* 
+    Document   : style
+    Created on : Mar 6, 2014, 12:27:16 PM
+    Author     : ibrar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 0 20px;
+}
+body {
+    margin: 10px auto;
+}
+body, .container {
+    max-width: 700px;
+
+}
+
+#logo {
+    padding: 10px 0px;
+    font-size: 200%;
+    border-bottom: 1px solid #C9E0ED;
+}
+
+.welcome {
+    text-align: center;
+    margin: 100px 0px;
+}
+.welcome > .btn-block {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+#content {
+    margin: 15px 0px;
+}
+
+.setup-config {
+    margin: 8% 0px;
+}
+
+.form-control::-moz-placeholder {
+    color: #CDCDCD;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: #CDCDCD;
+}
+.form-control::-webkit-input-placeholder {
+    color: #CDCDCD;
+}
+
+
+/* error */
+form span.required {
+    color: red;
+}
+form div.error label:first-child,
+form label.error,
+form span.error {
+    color: #C00;
+}
+form div.error input,
+form div.error textarea,
+form div.error select,
+form input.error,
+form textarea.error,
+form select.error {
+    background: #FEE;
+    border-color: #C00;
+}
+form .errorMessage, .errorMessage {
+	color: red;
+	font-size: 0.9em;
+}
+form .errorSummary p {
+	margin: 0;
+	padding: 5px;
+}
+form .errorSummary ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+
+#footer {
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #C9E0ED;
+}
